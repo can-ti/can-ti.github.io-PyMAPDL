@@ -27,8 +27,6 @@ _old/
 
 # build/
 doc/build/doctrees/
-doc/build/html/.doctrees/
-docs/.doctrees/
 dist/
 *.pickle
 

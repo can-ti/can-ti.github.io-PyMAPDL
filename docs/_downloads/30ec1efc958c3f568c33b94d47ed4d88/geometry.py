@@ -154,10 +154,10 @@ grid.plot(
 ###############################################################################
 # 该网格还能以紧凑的跨平台 VTK 格式保存到磁盘中，并再次用 ``pyvista`` 或 ParaView 加载。
 #
-# ..code:: python
-#     >>> grid.save('my_mesh.vtk')
-#     >>> import pyvista
-#     >>> imported_mesh = pyvista.read('my_mesh.vtk')
+
+grid.save('my_mesh.vtk')
+import pyvista
+imported_mesh = pyvista.read('my_mesh.vtk')
 
 ###############################################################################
 # Stop mapdl
